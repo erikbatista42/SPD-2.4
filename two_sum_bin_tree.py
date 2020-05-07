@@ -16,7 +16,7 @@ def two_sum_bin_tree(tree, target):
     end = len(numbers) -1
 
     while start < end:
-        # caculate total
+        # calculate total
         curr_total = numbers[start] + numbers[end]
 
         if curr_total == target:
