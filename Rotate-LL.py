@@ -53,5 +53,8 @@ def rotate_linked_list(ll, k):
     
 
 linked_list = LinkedList([1,2,3,4,5,6])
+example2_linked_list = LinkedList(["A","B","C","D","E","F"])
 test = rotate_linked_list(linked_list, 2)
+test2 = rotate_linked_list(example2_linked_list, 4)
 print(test)
+print(example2_linked_list)
