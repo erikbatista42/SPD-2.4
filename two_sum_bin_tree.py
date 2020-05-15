@@ -91,4 +91,8 @@ class Solution:
         if index_1 < len(nums_1):
             result.extend(nums_1[index_1:])
         else:
+<<<<<<< HEAD
             result.extend(nums_2[index_2:])
+=======
+            result.extend(nums_2[index_2:])
+>>>>>>> 7a71bb50a47b51871f1978466c4e57a8481a48c7
